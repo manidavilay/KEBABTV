@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>KEBAB.TV - Inscription</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header-title">
+            <strong>Kebab<span>.tv</span></strong>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="register.html">S'inscrire</a></li>
+                <li><a href="login.html">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="register-block">
+        <form action="#" id="registerForm" class="register-block__form">
+            <h2 class="register-block__subtitle">Inscrivez-vous</h2>
+            <input type="text" name="userEmail" required minlength="5" placeholder="Votre email" class="email-input">
+            <input type="text" name="userPassword" required minlength="5" placeholder="Votre mot de passe"
+                class="password-input">
+            <input type="text" name="userPseudo" required minlength="2" placeholder="Votre pseudo" class="pseudo-input">
+            <button type="submit" class="submit-btn">S'inscrire</button>
+        </form>
+    </div>
+
+    <script src="./js/register.js"></script>
+    <script src="./js/fetch.class.js"></script>
+</body>
+
+</html>
